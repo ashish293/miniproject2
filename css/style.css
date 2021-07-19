@@ -1,0 +1,97 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;400&display=swap");
+
+:root {
+	--dark: orange;
+}
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: "Noto Sans JP", sans-serif;
+}
+
+#navbar {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	background: var(--dark);
+	padding: 0 2rem;
+}
+
+.navlink > a {
+	font-weight: 300;
+	text-decoration: none;
+	color: white;
+	font-size: 1.3rem;
+	margin-right: 12px;
+}
+#logo {
+	height: 60px;
+	padding: 6px 0;
+}
+#navbar .action i {
+	margin-left: 10px;
+	color: white;
+}
+.navlink > a:hover,
+#navbar .action i:hover {
+	color: black;
+}
+main > img {
+	width: 100%;
+}
+
+footer {
+	background-color: rgb(136, 136, 136);
+	padding: 1rem 0;
+}
+.payment-method {
+	display: flex;
+	align-items: center;
+	justify-content: space-evenly;
+	padding: 5px 20%;
+}
+
+.payment-method span:first-child {
+	font-size: 1.4rem;
+	color: white;
+}
+.payment-method span:last-child {
+	font-size: 1.3rem;
+	font-weight: 300;
+	color: rgba(255, 255, 255, 0.6);
+}
+
+.payment-method img {
+	height: 30px;
+}
+
+.whatsapp {
+	position: fixed;
+	bottom: 20px;
+	right: 20px;
+}
+.whatsapp img {
+	width: 70px;
+}
+.footer-links {
+	display: flex;
+	justify-content: space-evenly;
+	padding: 15px 30%;
+}
+.footer-links a {
+	text-decoration: none;
+	color: rgba(255, 255, 255, 0.6);
+}
+.copyright {
+	text-align: center;
+	font-size: 1.5rem;
+}
+.copyright img {
+	width: 80px;
+	position: relative;
+	top: 6px;
+}
